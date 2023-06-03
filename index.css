@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+
+* {
+    font-family: 'Prompt', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(232, 149, 223, 0.322);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+header .logo img {
+    height: 100px;
+    width: auto;
+}
+
+header .nav-link {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+header .nav-link li {
+    padding: 0 20px;
+}
+
+header .nav-link li a {
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    margin: 80px
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    place-items: center;
+    gap: 15px;
+}
+
+article {
+    max-width: 270px;
+}
+
+article h6 {
+    font-size: 16px;
+}
+
+article img {
+    width: 270px;
+    height: 270px;
+    border-radius: 5%;
+    object-fit: cover;
+}
+
+article .ubicacion-puntuacion {
+    display: flex;
+    justify-content: space-between;
+}
+
+article .descripcion {
+    color: rgb(40, 6, 72);
+}
+
+article .fecha {
+    color: rgb(48, 6, 88);
+}
+
+article .precio {
+    margin-top: 2px;
+    font-weight: 700px;
+}
